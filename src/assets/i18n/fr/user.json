@@ -1,0 +1,13 @@
+{
+  "placeholder": {
+    "freeText": "Entrez du texte libre"
+  },
+  "text": {
+    "comment": "Lorsque vous le nom du pays «Inde», le texte de traduction du contenu sera modifié.",
+    "enteredText": "Vous avez saisi du texte:  {{freeText}}",
+    "conditionalText": "this.freeText == 'India' ? this.multilingualContent.text.indiaInfo : this.multilingualContent.text.geographicalInfo",
+    "indiaInfo": "L'Inde, officiellement la République de l'Inde, est un pays d'Asie du Sud. C'est le septième plus grand pays par zone, le deuxième pays le plus peuplé et la démocratie la plus peuplée du monde.",
+    "geographicalInfo": "Le monde est la planète Terre et toute vie sur elle, y compris la civilisation humaine. Dans un contexte philosophique, le monde est l'ensemble de l'Univers physique, ou un monde ontologique.",
+    "selectedRecord": "Vous avez sélectionné lenregistrement de '{name}'"
+  }
+}

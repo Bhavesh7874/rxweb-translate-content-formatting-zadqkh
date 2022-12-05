@@ -1,0 +1,13 @@
+{
+  "placeholder": {
+    "freeText":"Enter free text"
+    },
+  "text": {
+    "comment": "When you the country name of 'India' then content translation text will be changed.",
+    "enteredText": "You have entered text is: {{freeText}}",
+    "conditionalText": "this.freeText == 'India' ? this.multilingualContent.text.indiaInfo : this.multilingualContent.text.worldInfo",
+    "indiaInfo": "India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.",
+    "worldInfo": "The World is Planet Earth and all life on it, including human civilization. In a philosophical context, the world is the whole of the physical Universe, or an ontological world.",
+    "selectedRecord": "You have selected record of '{name}'"
+  }
+}

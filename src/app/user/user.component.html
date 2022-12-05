@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto px-lg-4 mt-lg-5 ">
+      <h3>Translation with Scoped Variable</h3>
+      <input type="text" [(ngModel)]="freeText" name="freeText" id="freeText" class="form-control" />
+      <small class="form-text text-muted">{{multilingualContent.text.comment}}</small>
+      <p style="margin-top:10px;" class="medium gray-text">{{multilingualContent.text.enteredText}}</p>
+    </div>
+
+
+
+  </div>
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto px-lg-4 mt-lg-5 ">
+      <h3>Content Translation Conditionally</h3>
+      <div style="margin-top:20px;">
+        <mark class="medium text-gray-bold mb-2">{{multilingualContent.text.conditionalText}}</mark>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto px-lg-4 mt-lg-5 ">
+      <h3>On Demand Content Translation </h3>
+
+      <div class="table-responsive" style="margin-top:20px;">
+        <table class="table mb-0 fs-14 table_md">
+          <tbody>
+            <tr *ngFor="let user of users;">
+              <td>{{user.name}}</td>
+              <td>{{user.gender}}</td>
+              <td>{{user.email}}</td>
+              <td>{{user.phone}}</td>
+              <td class="text-center">
+                <a (click)="selectUser(user)" class="mx-2 " title="Select">
+                  <i class="fas fa-check"></i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+    </div>
+  </div><div class="row">
+  <div class="col-lg-8 col-md-10 mx-auto  " style="margin-top:10px;margin-bottom:30px;">
+    <div *ngIf="message" style="background-color:#5e95ce!important; " class="alert alert-primary" role="alert">
+      {{message}}
+    </div>
+    </div>
+  </div>
+  </div>
+

@@ -1,0 +1,10 @@
+{
+  "placeholder": {
+    "streetAddress": "Entrez votre adresse",
+    "cityName": "Entrez le nom de votre ville"
+  },
+  "text": {
+    "streetAddress": "Adresse de rue",
+    "cityName": "Nom de Ville"
+  }
+}

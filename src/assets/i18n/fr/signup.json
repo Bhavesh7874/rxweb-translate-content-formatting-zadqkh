@@ -1,0 +1,19 @@
+{
+  "placeholder": {
+    "firstName": "Entrez votre prénom",
+    "lastName": "Entrez votre nom de famille",
+    "email": "Entrez votre adresse email",
+    "phone": "Entrez votre numéro de téléphone",
+    "password": "Tapez votre mot de passe"
+  },
+  "text": {
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "Email",
+    "password": "Mot de passe",
+    "createUser": "Créer un utilisateur",
+    "signIn": "Se connecter",
+    "alreadyAccount": "Vous avez déjà un compte?",
+    "contosoUniversity": "Université Contoso"
+  }
+}
